@@ -1,0 +1,7 @@
+
+1-) 'OS'            : Makinede bulunan işletim sistemi hakkında  bilgileri veren kütüphanedir( Sürümü,İşletim sistemi ismi vs.).      
+      
+2-) 'FS'            : readFile and writefile için kullanılan kütüphanedir. 
+    readFile        : Kullanıldığında kod blokları async şeklinde ilerler. İşlem varsa yeni gelen istek te yapılır. İlk biten işlem ilk olarak kod bloğuna yazılır.
+    readFileSync    : Kullanıldığında kod bloklarının senkron şekilde  ilerlemesini sağlar. Bir blok tamamlanmadan diğer bloğa geçilmez.
+
